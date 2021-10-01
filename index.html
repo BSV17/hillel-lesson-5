@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Title 1</h1>
-    <h1>Title 2</h1>
-    <h1>Title 3</h1>
-    <p>Lorem ipsum dolor sit amet.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Селекторы</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Типы селекторов</h2>
+    <ul>
+      <li>Селекторы по тэгам: <b>h1</b>. Будут выбраны все элементы с таким тегом</li>
+      <li>Селекторы по id: <b>#type</b>. Будет выбран только элемент с таким id</li>
+      <li>Селекторы по классам: <b>.class</b> . Будут выбраны все элементы с таким классом</li>
+      <li>Селектор по нескольким классам: <b>.class1.class2</b> . Будут выбраны элементы которые имеют оба класса</li>
+      <li>Универсальный селектор: <b>*</b>. Будут выбраны все элементы веб-страницы</li>
+      <li>Вложенные селекторы: <b>.class1 .class2</b> . Будут выбраны элементы вложенные в другой элемент</li>
+      <li>Дочерние селекторы: <b>.class1 > .class2</b> . Будут выбраны элементы первого уровня вложенности</li>
+      <li>Соседние селекторы: <b>.class1 + .class2</b> . Будут выбран элемент c <b>.class2</b>, который стоит после элемента c <b>.class1</b> </li>
+      <li>Родственные селекторы: <b>.class1 ~ .class2</b> . Будут выбраны все соседние элементы для <b>.class1</b>, которые имеют <b>.class2</b></li>
+      <li>Селекторы атрибутов: <b>input[type="text"]</b> . Будут выбраны элементы с определенными атрибутами</li>
+    </ul>
+
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p id="red-text">Incidunt hic possimus pariatur!</p>
+    <p>Praesentium beatae ea eaque.</p>
+    <p class="text">Exercitationem perspiciatis harum distinctio?</p>
+    <p class="text">Velit optio fugiat modi.</p>
+    <p>Voluptas, perferendis earum? Repellat.</p>
+    <p class="text blue-text">At quae molestiae laudantium!</p>
+    <p>Cum qui temporibus adipisci?</p>
+    <ul class="list">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Quas, quo velit.</li>
+        <li>Ab, nisi unde.</li>
+        <li>Ratione, consequuntur tempore!</li>
+        <li>Reiciendis, esse fugit?</li>
+        <li>Voluptate, totam debitis.</li>
+        <li>Repudiandae, accusantium? Incidunt?</li>
+        <li>Distinctio, asperiores voluptas.</li>
+    </ul>
+  </body>
 </html>

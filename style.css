@@ -1,0 +1,27 @@
+h3 {
+    color: purple;
+}
+
+p {
+    color: brown;
+}
+
+.text {
+    color: chartreuse;
+}
+
+#red-text {
+    color: red;
+}
+
+h3 + .text {
+    color: orange;
+}
+
+.text.blue-text {
+    color: blue;
+}
+
+ul.list li {
+    color: seagreen;
+}
