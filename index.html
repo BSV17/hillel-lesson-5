@@ -15,8 +15,14 @@
       <li>Универсальный селектор: <b>*</b>. Будут выбраны все элементы веб-страницы</li>
       <li>Вложенные селекторы: <b>.class1 .class2</b> . Будут выбраны элементы вложенные в другой элемент</li>
       <li>Дочерние селекторы: <b>.class1 > .class2</b> . Будут выбраны элементы первого уровня вложенности</li>
-      <li>Соседние селекторы: <b>.class1 + .class2</b> . Будут выбран элемент c <b>.class2</b>, который стоит после элемента c <b>.class1</b> </li>
-      <li>Родственные селекторы: <b>.class1 ~ .class2</b> . Будут выбраны все соседние элементы для <b>.class1</b>, которые имеют <b>.class2</b></li>
+      <li>
+        Соседние селекторы: <b>.class1 + .class2</b> . Будет выбран элемент с <b>.class2</b>, который стоит
+        непосредственно после элемента c <b>.class1, если у них общий родитель</b>
+      </li>
+      <li>
+        Родственные селекторы: <b>.class1 ~ .class2</b> . Будут выбраны все соседние элементы для элемента с <b>.class1</b>,
+        которые имеют <b>.class2</b>
+      </li>
       <li>Селекторы атрибутов: <b>input[type="text"]</b> . Будут выбраны элементы с определенными атрибутами</li>
     </ul>
 
@@ -31,14 +37,9 @@
     <p class="text blue-text">At quae molestiae laudantium!</p>
     <p>Cum qui temporibus adipisci?</p>
     <ul class="list">
-        <li>Lorem, ipsum dolor.</li>
-        <li>Quas, quo velit.</li>
-        <li>Ab, nisi unde.</li>
-        <li>Ratione, consequuntur tempore!</li>
-        <li>Reiciendis, esse fugit?</li>
-        <li>Voluptate, totam debitis.</li>
-        <li>Repudiandae, accusantium? Incidunt?</li>
-        <li>Distinctio, asperiores voluptas.</li>
+      <li>Lorem, ipsum dolor.</li>
+      <li>Quas, quo velit.</li>
+      <li>Ab, nisi unde.</li>
     </ul>
   </body>
 </html>
